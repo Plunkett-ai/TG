@@ -5,8 +5,7 @@
     "source_note": "Built from QOF (practice prevalence), GP registered patients, GP practice-to-ICB mapping, and NHS Talking Therapies monthly activity (Aug 2025).",
     "assumptions": {
       "baseline_tt_share_pct": 65,
-      "baseline_beam_share_pct": 15,
-      "baseline_other_share_pct": 20,
+      "baseline_beam_share_pct": 35,
       "gp_to_eligible_rate": 0.78,
       "tt_step2_share_of_tt": 0.55
     }
@@ -26,8 +25,7 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
@@ -36,11 +34,11 @@
         "eligible": 6723,
         "baseline_tt": 4370,
         "to_tt": 4370,
-        "to_beam": 1008,
-        "other_pc": 1345,
+        "to_beam": 2353,
+        "other_pc": 0,
         "tt_step2": 2404,
         "tt_step3": 1966,
-        "beam_started": 1008,
+        "beam_started": 2353,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -77,8 +75,7 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
@@ -87,11 +84,11 @@
         "eligible": 5392,
         "baseline_tt": 3505,
         "to_tt": 3505,
-        "to_beam": 809,
-        "other_pc": 1078,
+        "to_beam": 1887,
+        "other_pc": 0,
         "tt_step2": 1928,
         "tt_step3": 1577,
-        "beam_started": 809,
+        "beam_started": 1887,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -128,8 +125,7 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
@@ -138,11 +134,11 @@
         "eligible": 1900,
         "baseline_tt": 1235,
         "to_tt": 1235,
-        "to_beam": 285,
-        "other_pc": 380,
+        "to_beam": 665,
+        "other_pc": 0,
         "tt_step2": 679,
         "tt_step3": 556,
-        "beam_started": 285,
+        "beam_started": 665,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -179,8 +175,7 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
@@ -189,11 +184,11 @@
         "eligible": 4300,
         "baseline_tt": 2795,
         "to_tt": 2795,
-        "to_beam": 645,
-        "other_pc": 860,
+        "to_beam": 1505,
+        "other_pc": 0,
         "tt_step2": 1537,
         "tt_step3": 1258,
-        "beam_started": 645,
+        "beam_started": 1505,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -230,8 +225,7 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
@@ -240,11 +234,11 @@
         "eligible": 3615,
         "baseline_tt": 2350,
         "to_tt": 2350,
-        "to_beam": 542,
-        "other_pc": 723,
+        "to_beam": 1265,
+        "other_pc": 0,
         "tt_step2": 1292,
         "tt_step3": 1058,
-        "beam_started": 542,
+        "beam_started": 1265,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -281,8 +275,7 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
@@ -291,11 +284,11 @@
         "eligible": 5938,
         "baseline_tt": 3860,
         "to_tt": 3860,
-        "to_beam": 891,
-        "other_pc": 1188,
+        "to_beam": 2078,
+        "other_pc": 0,
         "tt_step2": 2123,
         "tt_step3": 1737,
-        "beam_started": 891,
+        "beam_started": 2078,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -332,8 +325,7 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
@@ -342,11 +334,11 @@
         "eligible": 10292,
         "baseline_tt": 6690,
         "to_tt": 6690,
-        "to_beam": 1544,
-        "other_pc": 2058,
+        "to_beam": 3602,
+        "other_pc": 0,
         "tt_step2": 3680,
         "tt_step3": 3010,
-        "beam_started": 1544,
+        "beam_started": 3602,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -383,21 +375,20 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
         "prevalent": 145183,
-        "gp_consults": 5375,
+        "gp_consults": 5374,
         "eligible": 4192,
         "baseline_tt": 2725,
         "to_tt": 2725,
-        "to_beam": 629,
-        "other_pc": 838,
+        "to_beam": 1467,
+        "other_pc": 0,
         "tt_step2": 1499,
         "tt_step3": 1226,
-        "beam_started": 629,
+        "beam_started": 1467,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -434,21 +425,20 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
         "prevalent": 125942,
-        "gp_consults": 5178,
+        "gp_consults": 5177,
         "eligible": 4038,
         "baseline_tt": 2625,
         "to_tt": 2625,
-        "to_beam": 606,
-        "other_pc": 808,
+        "to_beam": 1413,
+        "other_pc": 0,
         "tt_step2": 1444,
         "tt_step3": 1181,
-        "beam_started": 606,
+        "beam_started": 1413,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -485,21 +475,20 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
         "prevalent": 157920,
-        "gp_consults": 5266,
+        "gp_consults": 5267,
         "eligible": 4108,
         "baseline_tt": 2670,
         "to_tt": 2670,
-        "to_beam": 616,
-        "other_pc": 822,
+        "to_beam": 1438,
+        "other_pc": 0,
         "tt_step2": 1469,
-        "tt_step3": 1202,
-        "beam_started": 616,
+        "tt_step3": 1201,
+        "beam_started": 1438,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -536,8 +525,7 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
@@ -546,11 +534,11 @@
         "eligible": 2531,
         "baseline_tt": 1645,
         "to_tt": 1645,
-        "to_beam": 380,
-        "other_pc": 506,
+        "to_beam": 886,
+        "other_pc": 0,
         "tt_step2": 905,
         "tt_step3": 740,
-        "beam_started": 380,
+        "beam_started": 886,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -587,21 +575,20 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
         "prevalent": 141658,
-        "gp_consults": 4270,
+        "gp_consults": 4271,
         "eligible": 3331,
         "baseline_tt": 2165,
         "to_tt": 2165,
-        "to_beam": 500,
-        "other_pc": 666,
+        "to_beam": 1166,
+        "other_pc": 0,
         "tt_step2": 1191,
         "tt_step3": 974,
-        "beam_started": 500,
+        "beam_started": 1166,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -638,8 +625,7 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
@@ -648,11 +634,11 @@
         "eligible": 6938,
         "baseline_tt": 4510,
         "to_tt": 4510,
-        "to_beam": 1041,
-        "other_pc": 1388,
+        "to_beam": 2428,
+        "other_pc": 0,
         "tt_step2": 2480,
         "tt_step3": 2030,
-        "beam_started": 1041,
+        "beam_started": 2428,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -689,8 +675,7 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
@@ -699,11 +684,11 @@
         "eligible": 5946,
         "baseline_tt": 3865,
         "to_tt": 3865,
-        "to_beam": 892,
-        "other_pc": 1189,
+        "to_beam": 2081,
+        "other_pc": 0,
         "tt_step2": 2126,
         "tt_step3": 1739,
-        "beam_started": 892,
+        "beam_started": 2081,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -740,21 +725,20 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
         "prevalent": 163916,
-        "gp_consults": 7189,
+        "gp_consults": 7190,
         "eligible": 5608,
         "baseline_tt": 3645,
         "to_tt": 3645,
-        "to_beam": 841,
-        "other_pc": 1122,
+        "to_beam": 1963,
+        "other_pc": 0,
         "tt_step2": 2005,
         "tt_step3": 1640,
-        "beam_started": 841,
+        "beam_started": 1963,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -791,21 +775,20 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
         "prevalent": 198748,
-        "gp_consults": 9980,
+        "gp_consults": 9981,
         "eligible": 7785,
         "baseline_tt": 5060,
         "to_tt": 5060,
-        "to_beam": 1168,
-        "other_pc": 1557,
+        "to_beam": 2725,
+        "other_pc": 0,
         "tt_step2": 2783,
         "tt_step3": 2277,
-        "beam_started": 1168,
+        "beam_started": 2725,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -842,8 +825,7 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
@@ -852,11 +834,11 @@
         "eligible": 5669,
         "baseline_tt": 3685,
         "to_tt": 3685,
-        "to_beam": 850,
-        "other_pc": 1134,
+        "to_beam": 1984,
+        "other_pc": 0,
         "tt_step2": 2027,
         "tt_step3": 1658,
-        "beam_started": 850,
+        "beam_started": 1984,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -893,8 +875,7 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
@@ -903,11 +884,11 @@
         "eligible": 4169,
         "baseline_tt": 2710,
         "to_tt": 2710,
-        "to_beam": 625,
-        "other_pc": 834,
+        "to_beam": 1459,
+        "other_pc": 0,
         "tt_step2": 1491,
-        "tt_step3": 1220,
-        "beam_started": 625,
+        "tt_step3": 1219,
+        "beam_started": 1459,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -944,8 +925,7 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
@@ -954,11 +934,11 @@
         "eligible": 4185,
         "baseline_tt": 2720,
         "to_tt": 2720,
-        "to_beam": 628,
-        "other_pc": 837,
+        "to_beam": 1465,
+        "other_pc": 0,
         "tt_step2": 1496,
         "tt_step3": 1224,
-        "beam_started": 628,
+        "beam_started": 1465,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -995,8 +975,7 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
@@ -1005,11 +984,11 @@
         "eligible": 2269,
         "baseline_tt": 1475,
         "to_tt": 1475,
-        "to_beam": 340,
-        "other_pc": 454,
+        "to_beam": 794,
+        "other_pc": 0,
         "tt_step2": 811,
         "tt_step3": 664,
-        "beam_started": 340,
+        "beam_started": 794,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -1046,21 +1025,20 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
         "prevalent": 234002,
-        "gp_consults": 6657,
+        "gp_consults": 6656,
         "eligible": 5192,
         "baseline_tt": 3375,
         "to_tt": 3375,
-        "to_beam": 779,
-        "other_pc": 1038,
+        "to_beam": 1817,
+        "other_pc": 0,
         "tt_step2": 1856,
         "tt_step3": 1519,
-        "beam_started": 779,
+        "beam_started": 1817,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -1097,21 +1075,20 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
         "prevalent": 74227,
-        "gp_consults": 2189,
+        "gp_consults": 2190,
         "eligible": 1708,
         "baseline_tt": 1110,
         "to_tt": 1110,
-        "to_beam": 256,
-        "other_pc": 342,
+        "to_beam": 598,
+        "other_pc": 0,
         "tt_step2": 610,
         "tt_step3": 500,
-        "beam_started": 256,
+        "beam_started": 598,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -1148,8 +1125,7 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
@@ -1158,11 +1134,11 @@
         "eligible": 17677,
         "baseline_tt": 11490,
         "to_tt": 11490,
-        "to_beam": 2652,
-        "other_pc": 3535,
+        "to_beam": 6187,
+        "other_pc": 0,
         "tt_step2": 6320,
         "tt_step3": 5170,
-        "beam_started": 2652,
+        "beam_started": 6187,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -1199,21 +1175,20 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
         "prevalent": 200050,
-        "gp_consults": 5680,
+        "gp_consults": 5681,
         "eligible": 4431,
         "baseline_tt": 2880,
         "to_tt": 2880,
-        "to_beam": 665,
-        "other_pc": 886,
+        "to_beam": 1551,
+        "other_pc": 0,
         "tt_step2": 1584,
         "tt_step3": 1296,
-        "beam_started": 665,
+        "beam_started": 1551,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -1250,21 +1225,20 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
         "prevalent": 100316,
-        "gp_consults": 2811,
+        "gp_consults": 2810,
         "eligible": 2192,
         "baseline_tt": 1425,
         "to_tt": 1425,
-        "to_beam": 329,
-        "other_pc": 438,
+        "to_beam": 767,
+        "other_pc": 0,
         "tt_step2": 784,
         "tt_step3": 641,
-        "beam_started": 329,
+        "beam_started": 767,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -1301,8 +1275,7 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
@@ -1311,11 +1284,11 @@
         "eligible": 2054,
         "baseline_tt": 1335,
         "to_tt": 1335,
-        "to_beam": 308,
-        "other_pc": 411,
+        "to_beam": 719,
+        "other_pc": 0,
         "tt_step2": 734,
         "tt_step3": 601,
-        "beam_started": 308,
+        "beam_started": 719,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -1352,8 +1325,7 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
@@ -1362,11 +1334,11 @@
         "eligible": 1800,
         "baseline_tt": 1170,
         "to_tt": 1170,
-        "to_beam": 270,
-        "other_pc": 360,
+        "to_beam": 630,
+        "other_pc": 0,
         "tt_step2": 644,
         "tt_step3": 526,
-        "beam_started": 270,
+        "beam_started": 630,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -1403,21 +1375,20 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
         "prevalent": 243983,
-        "gp_consults": 7702,
+        "gp_consults": 7703,
         "eligible": 6008,
         "baseline_tt": 3905,
         "to_tt": 3905,
-        "to_beam": 901,
-        "other_pc": 1202,
+        "to_beam": 2103,
+        "other_pc": 0,
         "tt_step2": 2148,
         "tt_step3": 1757,
-        "beam_started": 901,
+        "beam_started": 2103,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -1454,21 +1425,20 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
         "prevalent": 198756,
-        "gp_consults": 11893,
+        "gp_consults": 11894,
         "eligible": 9277,
         "baseline_tt": 6030,
         "to_tt": 6030,
-        "to_beam": 1392,
-        "other_pc": 1855,
+        "to_beam": 3247,
+        "other_pc": 0,
         "tt_step2": 3317,
-        "tt_step3": 2714,
-        "beam_started": 1392,
+        "tt_step3": 2713,
+        "beam_started": 3247,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -1505,8 +1475,7 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
@@ -1515,11 +1484,11 @@
         "eligible": 1592,
         "baseline_tt": 1035,
         "to_tt": 1035,
-        "to_beam": 239,
-        "other_pc": 318,
+        "to_beam": 557,
+        "other_pc": 0,
         "tt_step2": 569,
         "tt_step3": 466,
-        "beam_started": 239,
+        "beam_started": 557,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -1556,21 +1525,20 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
         "prevalent": 135374,
-        "gp_consults": 5680,
+        "gp_consults": 5681,
         "eligible": 4431,
         "baseline_tt": 2880,
         "to_tt": 2880,
-        "to_beam": 665,
-        "other_pc": 886,
+        "to_beam": 1551,
+        "other_pc": 0,
         "tt_step2": 1584,
         "tt_step3": 1296,
-        "beam_started": 665,
+        "beam_started": 1551,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -1607,8 +1575,7 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
@@ -1617,11 +1584,11 @@
         "eligible": 1538,
         "baseline_tt": 1000,
         "to_tt": 1000,
-        "to_beam": 231,
-        "other_pc": 308,
+        "to_beam": 538,
+        "other_pc": 0,
         "tt_step2": 550,
         "tt_step3": 450,
-        "beam_started": 231,
+        "beam_started": 538,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -1658,8 +1625,7 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
@@ -1668,11 +1634,11 @@
         "eligible": 5323,
         "baseline_tt": 3460,
         "to_tt": 3460,
-        "to_beam": 798,
-        "other_pc": 1065,
+        "to_beam": 1863,
+        "other_pc": 0,
         "tt_step2": 1903,
         "tt_step3": 1557,
-        "beam_started": 798,
+        "beam_started": 1863,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -1709,8 +1675,7 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
@@ -1719,11 +1684,11 @@
         "eligible": 3954,
         "baseline_tt": 2570,
         "to_tt": 2570,
-        "to_beam": 593,
-        "other_pc": 791,
+        "to_beam": 1384,
+        "other_pc": 0,
         "tt_step2": 1414,
         "tt_step3": 1156,
-        "beam_started": 593,
+        "beam_started": 1384,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -1760,21 +1725,20 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
         "prevalent": 103970,
-        "gp_consults": 3540,
+        "gp_consults": 3541,
         "eligible": 2762,
         "baseline_tt": 1795,
         "to_tt": 1795,
-        "to_beam": 414,
-        "other_pc": 552,
+        "to_beam": 967,
+        "other_pc": 0,
         "tt_step2": 987,
         "tt_step3": 808,
-        "beam_started": 414,
+        "beam_started": 967,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -1811,8 +1775,7 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
@@ -1821,11 +1784,11 @@
         "eligible": 3200,
         "baseline_tt": 2080,
         "to_tt": 2080,
-        "to_beam": 480,
-        "other_pc": 640,
+        "to_beam": 1120,
+        "other_pc": 0,
         "tt_step2": 1144,
         "tt_step3": 936,
-        "beam_started": 480,
+        "beam_started": 1120,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -1862,8 +1825,7 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
@@ -1872,11 +1834,11 @@
         "eligible": 2685,
         "baseline_tt": 1745,
         "to_tt": 1745,
-        "to_beam": 403,
-        "other_pc": 537,
+        "to_beam": 940,
+        "other_pc": 0,
         "tt_step2": 960,
         "tt_step3": 785,
-        "beam_started": 403,
+        "beam_started": 940,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -1913,21 +1875,20 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
         "prevalent": 155568,
-        "gp_consults": 6607,
+        "gp_consults": 6608,
         "eligible": 5154,
         "baseline_tt": 3350,
         "to_tt": 3350,
-        "to_beam": 773,
-        "other_pc": 1031,
+        "to_beam": 1804,
+        "other_pc": 0,
         "tt_step2": 1843,
-        "tt_step3": 1508,
-        "beam_started": 773,
+        "tt_step3": 1507,
+        "beam_started": 1804,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -1964,8 +1925,7 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
@@ -1974,11 +1934,11 @@
         "eligible": 8900,
         "baseline_tt": 5785,
         "to_tt": 5785,
-        "to_beam": 1335,
-        "other_pc": 1780,
+        "to_beam": 3115,
+        "other_pc": 0,
         "tt_step2": 3182,
         "tt_step3": 2603,
-        "beam_started": 1335,
+        "beam_started": 3115,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -2015,8 +1975,7 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
@@ -2025,11 +1984,11 @@
         "eligible": 3115,
         "baseline_tt": 2025,
         "to_tt": 2025,
-        "to_beam": 467,
-        "other_pc": 623,
+        "to_beam": 1090,
+        "other_pc": 0,
         "tt_step2": 1114,
         "tt_step3": 911,
-        "beam_started": 467,
+        "beam_started": 1090,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -2066,8 +2025,7 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
@@ -2076,11 +2034,11 @@
         "eligible": 3808,
         "baseline_tt": 2475,
         "to_tt": 2475,
-        "to_beam": 571,
-        "other_pc": 762,
+        "to_beam": 1333,
+        "other_pc": 0,
         "tt_step2": 1361,
         "tt_step3": 1114,
-        "beam_started": 571,
+        "beam_started": 1333,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
@@ -2117,8 +2075,7 @@
         "gp_to_eligible_rate": 0.78,
         "baseline_shares": {
           "tt_pct": 65,
-          "beam_pct": 15,
-          "other_pct": 20
+          "beam_pct": 35
         }
       },
       "nodes": {
@@ -2127,11 +2084,11 @@
         "eligible": 8300,
         "baseline_tt": 5395,
         "to_tt": 5395,
-        "to_beam": 1245,
-        "other_pc": 1660,
+        "to_beam": 2905,
+        "other_pc": 0,
         "tt_step2": 2967,
         "tt_step3": 2428,
-        "beam_started": 1245,
+        "beam_started": 2905,
         "tt_recovery_pct": 45,
         "tt_partial_pct": 35,
         "tt_stepup_pct": 20,
