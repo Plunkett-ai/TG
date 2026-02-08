@@ -168,16 +168,14 @@ function render() {
   const eligible = Math.max(1, n.eligible||0);
   const share_tt = (n.to_tt||0) / eligible;
   const share_beam = (n.to_beam||0) / eligible;
-  const share_other = (n.other_pc||0) / eligible;
   const tot_tt = gp_total*share_tt + assessment_total*share_tt + tt_total;
   const tot_beam = gp_total*share_beam + assessment_total*share_beam + beam_total;
-  const tot_other = gp_total*share_other + assessment_total*share_other + med_total;
 
   document.getElementById('tot_tt').textContent = fmtGBP(tot_tt);
   document.getElementById('tot_beam').textContent = fmtGBP(tot_beam);
-  // tot_other removed
+  // tot_other element may still exist in HTML but is no longer used
   const totOtherEl = document.getElementById('tot_other');
-  if (totOtherEl) totOtherEl.textContent = fmtGBP(tot_other);
+  if (totOtherEl) totOtherEl.textContent = fmtGBP(0);
 
 // ===== Summary net impact (monthly) =====
 // Baseline: all eligible go to TT at baseline Step 2/3 split (55/45)
