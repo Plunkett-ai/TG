@@ -176,7 +176,8 @@ function render() {
   document.getElementById('tot_tt').textContent = fmtGBP(tot_tt);
   document.getElementById('tot_beam').textContent = fmtGBP(tot_beam);
   // tot_other removed
-document.getElementById('tot_other')?.textContent = fmtGBP(tot_other);
+  const totOtherEl = document.getElementById('tot_other');
+  if (totOtherEl) totOtherEl.textContent = fmtGBP(tot_other);
 
 // ===== Summary net impact (monthly) =====
 // Baseline: all eligible go to TT at baseline Step 2/3 split (55/45)
